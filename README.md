@@ -36,10 +36,12 @@ Scrape the Mars News Site and collect the latest News Title and Paragraph Text.
 Use Splinter to navigate the site and find the image URL for the current Featured Mars Image, then assign the URL string to a variable called ``featured_image_url``.
   NOTE: we need to store ``chromedriver.exe`` in folder to run `ipynb` smoothly.
 ![image](https://user-images.githubusercontent.com/99168697/168410994-f6b99339-9f43-4d14-b5d9-c80e275ccf4e.png)
+![image](https://user-images.githubusercontent.com/99168697/168413383-6bef6dec-6542-465f-bca6-d4d33077d4d5.png)
+
 
   Store ``chromedriver.exe`` in folder
   
-![image](https://user-images.githubusercontent.com/99168697/168410910-8a54190f-a6ad-4859-8dcb-eea2468aa461.png)
+	![image](https://user-images.githubusercontent.com/99168697/168410910-8a54190f-a6ad-4859-8dcb-eea2468aa461.png)
 
 ### Mars Facts: https://galaxyfacts-mars.com/
 Visit the Mars Facts webpage and use Pandas to scrape the table containing facts about the planet including diameter, mass, etc.
