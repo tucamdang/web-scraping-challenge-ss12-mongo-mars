@@ -1,9 +1,10 @@
 # Mission to Mars
 We build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 --------------------------
-## There will be 3 Parts: Scraping | MongoDB and Flask Application | Submission
+## There will be 3 Parts: 
+### Scraping | MongoDB and Flask Application | Submission
 The websites will be used: 
-``
+````
 nasa mars news: Nasa_url ='https://redplanetscience.com/'
 
 JPL image: url = 'https://spaceimages-mars.com'
@@ -11,7 +12,7 @@ JPL image: url = 'https://spaceimages-mars.com'
 Mars fact: https://galaxyfacts-mars.com/
 
 Hemisphere: https://marshemispheres.com/
-``
+````
 ![image](https://user-images.githubusercontent.com/99168697/168410253-6cf05ad6-c611-4f36-92c1-617ac7e66d4d.png)
 
 - This project is about Mission to Mars, we run the code in jupyternotebook and then created the python script (scraping_mars.py) to scrape text and images from many websites/ link provided. we have to link this app.py to index.html, and use Bootstrap to display all search data in left location. 
