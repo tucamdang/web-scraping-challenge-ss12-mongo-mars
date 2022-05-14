@@ -27,7 +27,8 @@ Make sure you pip install some function it Git bash/ your Terminal
 		Pip install selenium
 		Pip install bs4
 		Pip install webdriver_manager
-    Pip install lxml 
+    		Pip install lxml 
+		
 ### NASA Mars News: https://redplanetscience.com/
 Scrape the Mars News Site and collect the latest News Title and Paragraph Text.
 
@@ -35,7 +36,9 @@ Scrape the Mars News Site and collect the latest News Title and Paragraph Text.
 Use Splinter to navigate the site and find the image URL for the current Featured Mars Image, then assign the URL string to a variable called ``featured_image_url``.
   NOTE: we need to store ``chromedriver.exe`` in folder to run `ipynb` smoothly.
 ![image](https://user-images.githubusercontent.com/99168697/168410994-f6b99339-9f43-4d14-b5d9-c80e275ccf4e.png)
+
   Store ``chromedriver.exe`` in folder
+  
 ![image](https://user-images.githubusercontent.com/99168697/168410910-8a54190f-a6ad-4859-8dcb-eea2468aa461.png)
 
 ### Mars Facts: https://galaxyfacts-mars.com/
@@ -54,10 +57,8 @@ After running smoothly the code in Jupyter Notebook.
 We can copy the code and convert from Jupyter Notebook it into Python script called scrap_mars.py
 
 - Create a template HTML file called index.html that will take the Mars data dictionary and display all the data in the appropriate HTML elements. Use the following as a guide for what the final product should look like, but feel free to create your own design.
+
 ## Part 3: Submission
 Place index.html into templates folder. 
 
 ![1](https://user-images.githubusercontent.com/99168697/168413311-b4acfcb5-6982-4bd9-b1be-91bd14118da2.png)
-
-
-
