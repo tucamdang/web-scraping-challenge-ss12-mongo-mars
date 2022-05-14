@@ -61,14 +61,14 @@ We can copy the code and convert from Jupyter Notebook it into Python script cal
 
 - Create a template HTML file called index.html that will take the Mars data dictionary and display all the data in the appropriate HTML elements. Use the following as a guide for what the final product should look like, but feel free to create your own design.
 
-Finally, we run the code to achieve the link and see how it works
+Finally, we test and see how the scrape works by using GitBash/ Terminal:
 ````
 source activate PythonData
 conda activate PythonData
 python app.py
 ````
 Run by git bash to achieve the link http://127.0.0.1:5000/
-![image](https://user-images.githubusercontent.com/99168697/168413598-2e5b9798-5756-4da5-9e5c-3b3e9f811272.png)
+![image](https://user-images.githubusercontent.com/99168697/168413664-5c8a155e-90e5-4d8b-ad19-dea7a671605e.png)
 
 ## Part 3: Submission
 Place index.html into templates folder. 
